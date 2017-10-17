@@ -17,6 +17,14 @@ data <- read.csv(
   , col.names=col.names
 )
 
+# A13: Checking account balance >= 200 DM or salary assignments for at least 1 year
+# A14: No checking account
+# A32: Existing credits paid back duly till now
+# A33: Delay in paying off in the past
+# A34: Critical account / other credits existing (not at this bank)
+# A64: Savings account balance >= 1000 DM
+# A65: Unknown/ no savings account.
+
 library(rpart)
 # Build a tree
 # I already figured these significant variables from my first iteration (not shown in this code for simplicity)

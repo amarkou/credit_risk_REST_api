@@ -9,4 +9,4 @@ To make the example a bit more interesting, I created a machine learning model i
 Test to make sure it works
  Issue the following command in a terminal:
 
-	curl -X POST -d '{"Status.of.existing.checking.account": "A11", "Duration.in.month": 24, "Credit.history": "A32",
+	curl -X POST -d '{"Status.of.existing.checking.account": "A11", "Duration.in.month": 24, "Credit.history": "A32", "Savings.account.bonds": "A63"}' -H 'Content-Type: application/json' localhost:7000/predict
